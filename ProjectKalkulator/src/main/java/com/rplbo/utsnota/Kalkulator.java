@@ -21,19 +21,19 @@ public class Kalkulator {
 
     public void hitung() {
         if (op == "*") {
-            this.hasil = bil1 * bil2;
+            this.hasil = bil1*bil2;
             System.out.println("Hasil" + hasil + ".0");
         }
         if (op == "+") {
-            this.hasil = bil1 + bil2;
+            this.hasil = bil1+bil2;
             System.out.println("Hasil" + hasil + ".0");
         }
         if (op == "/") {
-            this.hasil = bil1 / bil2;
+            this.hasil = bil1/bil2;
             System.out.println("Hasil" + hasil + ".0");
         }
         if (op == "-") {
-            this.hasil = bil1 - bil2;
+            this.hasil = bil1-bil2;
             System.out.println("Hasil" + hasil + ".0");
         }
         if (op == "^") {
